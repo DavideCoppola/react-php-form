@@ -8,6 +8,6 @@ const formStore = new FormStore();
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App store={formStore}/>
+    <App formStore={formStore}/>
   </React.StrictMode>,
 )
